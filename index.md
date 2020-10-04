@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+### Welcome to the GitHub Pages for Flubber Media.
+Here you'll find a list of our public iOS components together with the link to their documentation pages.
 
-You can use the [editor on GitHub](https://github.com/flubbermedia/flubbermedia.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+All the components have been developed by Andrea Ottolina aka (@sgabello) and Maurizio Cremaschi aka (@myfleek). For most of them the minimun iOS version required is 5.0 and they use ARC with XCode 4.4.1.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+***
 
-### Markdown
+### Our components:
+* **[FMAboutPanel](https://github.com/flubbermedia/FMAboutPanel)** - [docs](http://flubbermedia.github.com/FMAboutPanel)  
+A custom UIViewController to present a beautiful "About" view. Rich of features and functionalities.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* **[FMCache](https://github.com/flubbermedia/FMCache)** - [docs](http://flubbermedia.github.com/FMCache)  
+A powerfull caching system for remote assets.
 
-```markdown
-Syntax highlighted code block
+* **[FMFacebookPanel](https://github.com/flubbermedia/FMFacebookPanel)** - [docs](http://flubbermedia.github.com/FMFacebookPanel)  
+A custom UIViewController for Facebook sharing that mimics the interface of the Twitter API introduced in iOS 5.
 
-# Header 1
-## Header 2
-### Header 3
+* **[FMPurchaseManager](https://github.com/flubbermedia/FMPurchaseManager)** - [docs](http://flubbermedia.github.com/FMPurchaseManager)  
+A wrapper for StoreKit that simplifies some common tasks.
 
-- Bulleted
-- List
+* **[FMRevealViewController](https://github.com/flubbermedia/FMRevealViewController)** - [docs](http://flubbermedia.github.com/FMRevealViewController)  
+A very simple UIViewController container to mimic the interface behaviour made popular by apps like Facebook and Path.
 
-1. Numbered
-2. List
+* **[FMSpringView](https://github.com/flubbermedia/FMSpringView)** - [docs](http://flubbermedia.github.com/FMSpringView)  
+A simple Category on UIView that adds a spring-like animation when the view is touched.
 
-**Bold** and _Italic_ and `Code` text
+* **[FMStickerEngine](https://github.com/flubbermedia/FMStickerEngine)** - [docs](http://flubbermedia.github.com/FMStickerEngine)  
+The framework we created to handle the face detection API. Used in the app [Stickers](http://flubb.me/stickers).
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/flubbermedia/flubbermedia.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+***
 
 ### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with a component? We'll try our best to help you but please always read the documentation carefully before sending any request.
